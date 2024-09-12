@@ -33,6 +33,7 @@ source-code: https://github.com/theryangeary/choose
 issues: https://github.com/kz6fittycent/choose/issues
 website: https://asciinema.org/a/315932?autoplay=1
 contact: https://github.com/kz6fittycent/choose
+icon: snap/local/choose.png
 base: core24
 grade: stable 
 confinement: strict
