@@ -1,5 +1,9 @@
 # Choose
 
+<a href="https://snapcraft.io/choose"><img src="https://snapcraft.io/choose/badge.svg" alt="Snap Status"></a>
+
+[![🧪 Snap Builds](https://github.com/kz6fittycent/choose/workflows/%F0%9F%A7%AA%20Test%20snap%20can%20be%20built%20on%20x86_64/badge.svg)](https://github.com/kz6fittycent/choose/actions?query=workflow:"🧪+Snap+Builds")
+
 This is `choose`, a human-friendly and fast alternative to `cut` and (sometimes) `awk`
 
 [![`choose` demo](https://asciinema.org/a/315932.png)](https://asciinema.org/a/315932?autoplay=1)
@@ -147,6 +151,11 @@ MacPorts:
 
 ```sh
 sudo port install choose
+```
+
+Snap install:
+```
+sudo snap install choose
 ```
 
 ### Benchmarking
