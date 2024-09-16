@@ -5,32 +5,26 @@ description: |
     This is choose, a human-friendly and fast alternative to cut and (sometimes) awk.
   
     USAGE:
-        `choose [FLAGS] [OPTIONS] <choices>...`
+        choose [FLAGS] [OPTIONS] <choices>...
 
     FLAGS:
-    ```
         -c, --character-wise    Choose fields by character number
         -d, --debug             Activate debug mode
         -x, --exclusive         Use exclusive ranges, similar to array indexing in many programming languages
         -h, --help              Prints help information
         -n, --non-greedy        Use non-greedy field separators
         -V, --version           Prints version information
-    ```
     OPTIONS:
-    ```
         -f, --field-separator <field-separator>
                 Specify field separator other than whitespace, using Rust `regex` syntax
 
         -i, --input <input>                                      Input file
         -o, --output-field-separator <output-field-separator>    Specify output field separator
-    ```
     ARGS:
-    ```
         <choices>...    Fields to print. Either a, a:b, a..b, or a..=b, where a and b are integers. The beginning or end
                         of a range can be omitted, resulting in including the beginning or end of the line,
                         respectively. a:b is inclusive of b (unless overridden by -x). a..b is exclusive of b and a..=b
                         is inclusive of b
-    ```
     
 license: GPL-3.0
 source-code: https://github.com/theryangeary/choose
