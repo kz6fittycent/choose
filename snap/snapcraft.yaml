@@ -73,9 +73,6 @@ parts:
     plugin: rust
     build-packages:
       - cargo
-    stage-packages:
-      - cargo
-      
     override-pull: |
       craftctl default
       craftctl set version="$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"       
